@@ -1,5 +1,165 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "286b0abf-040a-44e6-b6fe-1e64b2aca016")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 116.84 68.58)
+		(size 38.1 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "34a08cfa-abc8-4e45-88dd-67b1df50d310")
+		(property "Sheetname" "USB hub"
+			(at 116.84 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mjolnir_hub.kicad_sch"
+			(at 116.84 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mjolnir"
+				(path "/286b0abf-040a-44e6-b6fe-1e64b2aca016"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 58.42)
+		(size 33.02 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b6acd6ca-82d0-4e29-a3c2-93c216e338de")
+		(property "Sheetname" "Downstream USB"
+			(at 189.23 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mjolnir_downstream.kicad_sch"
+			(at 189.23 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mjolnir"
+				(path "/286b0abf-040a-44e6-b6fe-1e64b2aca016"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 59.69)
+		(size 33.02 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cbe5906a-6217-4255-8a8b-87687e2ac629")
+		(property "Sheetname" "Upstream USB"
+			(at 39.37 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mjolnir_upstream.kicad_sch"
+			(at 39.37 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mjolnir"
+				(path "/286b0abf-040a-44e6-b6fe-1e64b2aca016"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 30.48)
+		(size 38.1 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "df9a6b19-e208-4638-a325-c10b066c9c9f")
+		(property "Sheetname" "Supervisor"
+			(at 116.84 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mjolnir_supervisor.kicad_sch"
+			(at 116.84 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mjolnir"
+				(path "/286b0abf-040a-44e6-b6fe-1e64b2aca016"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
